@@ -14,7 +14,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Check out your code from Bitbucket
-                checkout([$class: 'GitSCM', branches: [[name: 'tenant-fe/docker']], 
+                checkout([$class: 'GitSCM', branches: [[name: 'main']], 
                 userRemoteConfigs: [[url: 'https://github.com/ankitpawar1580/Project_98756342ops.git']]])
 
              }
