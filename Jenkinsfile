@@ -7,7 +7,7 @@ pipeline {
         TARGET_SERVER = 'http://54.242.159.225/' // Replace with your target server IP or hostname
         TARGET_USERNAME = 'ubuntu' // Replace with your SSH username
         //DOCKERFILE_PATH = 'dockerfile' // Define the path to your Dockerfile here
-        DOCKERFILE_PATH = 'dockerfile'
+        DOCKERFILE_PATH = 'Dockerfile'
     }
 
     stages {
